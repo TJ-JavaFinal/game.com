@@ -15,11 +15,13 @@ int randColor = random.nextInt(4)+1;
      else if(randColor==4)
          wireColor = "red";
 
+
+
     }
     public static void randomNum(){
         Random random = new Random();
 
-        int randColor = random.nextInt(4)+1;
+        int rand = random.nextInt(4)+1;
 
     }
 }
