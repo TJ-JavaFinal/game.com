@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class puzzle {
     public static void main(String[] args){
-
-        bombDifussal();
+// change this into the random puzzle
+        password();
 
     }
 
@@ -66,19 +66,19 @@ public class puzzle {
             if(wireColor=="blue"){
                 System.out.println("you managed to cut the correct wire.\n"+"you move on to the next door.");
             }
-            else{ System.out.println("you didn't cut the correct wire\n"+" you are reset");}
+            else{ System.out.println("you didn't cut the correct wire\n"+" the bomb explodes");}
         }
         else if(INcolor.equalsIgnoreCase("green")){
             if(wireColor=="green"){
                 System.out.println("you managed to cut the correct wire.\n"+"you move on to the next door.");
             }
-            else{ System.out.println("you didn't cut the correct wire\n"+" you are reset");}
+            else{ System.out.println("you didn't cut the correct wire\n"+" the bomb explodes");}
         }
         else if(INcolor.equalsIgnoreCase("white")){
             if(wireColor=="white"){
                 System.out.println("you managed to cut the correct wire.\n"+"you move on to the next door.");
             }
-            else{ System.out.println("you didn't cut the correct wire\n"+" you are reset");}
+            else{ System.out.println("you didn't cut the correct wire\n"+" the bomb explodes");}
         }
         else if(INcolor.equalsIgnoreCase("red")){
             if(wireColor=="red"){
@@ -88,7 +88,105 @@ public class puzzle {
         }
         else if(INcolor.equalsIgnoreCase("black")) {
             System.out.println("you somehow managed to not cut any of the wires in the bomb instead you cut the wires connecting the outlet to the lamp.\n"+
-                    "you get abducted by aliens and they move you to the start.");
+                    "you get abducted by aliens and they move you to the next room.");
+        }
+        }
+
+        public static void keypad(){
+            System.out.println("                        KEYPAD");
+       System.out.println("this room has a keypad by the door you need to exit.");
+       System.out.println("you also see a box in the center of the room\n"+
+               "something on a shelf\n"+
+               "something on a table\n"+
+               "something in the lamp\n"+
+               "and something in the plant");
+       keypadMethod();
+
+
+
+        }
+        public static void keypadMethod(){
+          boolean when=true;
+          int count=0;
+            Scanner keyboard = new Scanner(System.in);
+            String input;
+            int[] randcode=new int [4];
+            Random random = new Random();
+            int[] code=new int [4];
+
+            for(int i =0;i<randcode.length;++i){
+                randcode[i]= random.nextInt(9);
+            }
+            while(when) {
+                System.out.println("what do you want to look at?"+randcode);
+                input = keyboard.next();
+
+                if (input.equalsIgnoreCase("lamp"))
+                    System.out.println(random.nextInt(9));
+                else if (input.equalsIgnoreCase("shelf"))
+                    System.out.println("you find 1  " + randcode[0]+" on a paper taped onto the shelf");
+                else if (input.equalsIgnoreCase("table"))
+                    System.out.println("you find 2  " + randcode[1]+" carved into the table");
+                else if (input.equalsIgnoreCase("box"))
+                    System.out.println("you find 3  " + randcode[2] + " written on the box.");
+                else if (input.equalsIgnoreCase("plant"))
+                    System.out.println("you find 4  " + randcode[3]+" written on the pot of the plant");
+                else if (input.equalsIgnoreCase("door")) {
+                    System.out.println("what code do you enter?");
+                    for(int j =0;j<code.length;++j){
+                        System.out.println("enter digit "+(j+1));
+                        code[j]=keyboard.nextInt(); }
+
+                for(int k =0;k<code.length;++k){
+                    if(code[k]==randcode[k])
+                        count ++;
+                    System.out.println();
+                    if(count==4) {
+                        when = false;
+                    }
+                }
+                }
+        }
+    }
+
+    public static void password(){
+        System.out.println("                 password");
+        System.out.println("in this room you find a door with a microphone next it.\n"+
+                " a chest\n"+" lamp\n"+" and a taco box");
+        puzzle.passwordMETOD();
+
+
+    }
+    public static void passwordMETOD(){
+        boolean when=true;
+        Scanner key = new Scanner(System.in);
+        String input="spooky scary skeletons";
+        String password="speak with such a screech";
+        String answer="youll shake and shudder in surpirse";
+        Random random = new Random();
+        int rand = random.nextInt(3) + 1;
+        if(rand == 1)
+            answer="rock";
+        if(rand == 3)
+            answer="scissors";
+        if(rand == 2)
+            answer="paper";
+        while(when) {
+            System.out.println("what do you want to look at?");
+            input=key.next();
+            if (input.equalsIgnoreCase("lamp"))
+                System.out.println("you find a paper that says rock");
+           else if (input.equalsIgnoreCase("taco"))
+                System.out.println("you find a paper that says paper");
+            else if (input.equalsIgnoreCase("chest"))
+                System.out.println("you find a paper that says scissors");
+           else if (input.equalsIgnoreCase("door")) {
+                System.out.println("what do you say?");
+                if(password==answer){
+                    when=false;
+                }
+                else{System.out.println("the door makes a loud beep.");}
+            }
         }
     }
 }
