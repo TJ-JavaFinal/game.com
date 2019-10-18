@@ -11,7 +11,7 @@ public class Doors {
             System.out.println("Choose a door! \n 1- for Door 1 " +
                     "\n 2- for Door 2 \n 3 - for Door 3 \n choice >>>>");
             choice = input.nextInt();
-            System.out.println("You choose Door Number " + choice + " now you will have to complete a puzzle in this room to be able go on to the next choices of rooms.");
+            System.out.println("You chose Door Number " + choice + " now you will have to complete a puzzle in this room to be able go on to the next choices of rooms.");
 
             puzzle.bombDifussal();
             secondRoomDoors();
@@ -59,6 +59,7 @@ public class Doors {
         System.out.println("|                         |");
         System.out.println(" _________________________");
         boolean doorsActive = false;
+
 
 
 
