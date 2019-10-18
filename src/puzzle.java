@@ -150,6 +150,8 @@ public class puzzle {
 
     public static void password(){
         System.out.println("                 password");
+        System.out.println("in this room you find a door with a microphone next it.\n"+
+                " a chest");
 
 
     }
