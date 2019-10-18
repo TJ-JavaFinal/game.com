@@ -14,7 +14,10 @@ public class bigfootTacoTruckEnding {
 
         if(choice == 1 ){
             System.out.println("You choose to look in the truck");
-            System.out.println("You then look in and see nonother than ");
+            System.out.println("You then look in and see non other than The Being, The Man, The Legend himself BigFoot ");
+            System.out.println("When he sees you you think he's going to attack but he holds out two tacos and offers you to sit at the front of the truck");
+            System.out.println("You then proceed");
+
 
         }
         else if(choice == 2){
