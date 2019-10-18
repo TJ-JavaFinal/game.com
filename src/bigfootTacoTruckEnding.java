@@ -6,6 +6,7 @@ public class bigfootTacoTruckEnding {
         int choice;
         Scanner input = new Scanner(System.in);
         System.out.println("After you open the exit door you see a taco truck");
+        taco.truck();
 
         System.out.println("What's in that taco truck is unknown so you get a choice:");
 
@@ -23,6 +24,22 @@ public class bigfootTacoTruckEnding {
             System.out.println("He then makes his right hand a fist and slams it onto his left hand");
             System.out.println("You then realize he has challenged you to a game of rock, paper, scissors");
             RockPaperBigfoot.RockPaperScissorsBigfoot();
+            System.out.println("                                    ");
+            System.out.println("TTTTTTTTTT  H        H    EEEEEEEEEE");
+            System.out.println("    T       H        H    E ");
+            System.out.println("    T       H        H    E ");
+            System.out.println("    T       HHHHHHHHHH    EEEEEEEEEE");
+            System.out.println("    T       H        H    E ");
+            System.out.println("    T       H        H    E ");
+            System.out.println("    T       H        H    EEEEEEEEEE");
+
+            System.out.println(" EEEEEEEEEE   N         N    D D  D ");
+            System.out.println(" E            N N       N    D     D ");
+            System.out.println(" E            N   N     N    D      D ");
+            System.out.println(" EEEEEEEEEE   N     N   N    D       D");
+            System.out.println(" E            N       N N    D      D");
+            System.out.println(" E            N        NN    D     D");
+            System.out.println(" EEEEEEEEEE   N         N    D D D ");
 
 
 
