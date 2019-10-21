@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class bigfootTacoTruckEnding {
 
-    public static void main(String[] args) {
+    public static void bigfootTacoTruckEnding(){
         int choice;
         Scanner input = new Scanner(System.in);
         System.out.println("After you open the exit door you see a taco truck");
@@ -69,6 +69,6 @@ public class bigfootTacoTruckEnding {
 
         }
 
-//        public static void bigfootEnding(){
+
     }
 }
