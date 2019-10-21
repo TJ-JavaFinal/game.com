@@ -15,7 +15,7 @@ public class Doors {
 
             puzzle.bombDifussal();
             secondRoomDoors();
-            exitDoors();
+            exitDoors(doorsActive);
 
 
         }
@@ -34,7 +34,7 @@ public class Doors {
 
 
     }
-    public static void exitDoors() {
+    public static void exitDoors(boolean doorActive) {
         System.out.println("Congratulations you have found the exit door you can finally leave");
         System.out.println(" _________________________");
         System.out.println("|                         |");

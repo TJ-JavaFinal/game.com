@@ -24,6 +24,7 @@ public class bigfootTacoTruckEnding {
             System.out.println("He then makes his right hand a fist and slams it onto his left hand");
             System.out.println("You then realize he has challenged you to a game of rock, paper, scissors");
             RockPaperBigfoot.RockPaperScissorsBigfoot();
+
             System.out.println("                                    ");
             System.out.println("TTTTTTTTTT  H        H    EEEEEEEEEE");
             System.out.println("    T       H        H    E ");
