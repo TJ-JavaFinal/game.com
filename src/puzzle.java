@@ -2,12 +2,23 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class puzzle {
+
+    public static void randPUZZLE(){
+        Random random = new Random();
+        int rand = random.nextInt(3) + 1;
+        if(rand==1)
+            puzzle.bombDifussal();
+        if(rand==2)
+            puzzle.password();
+        if(rand==3)
+            puzzle.keypad();
+
     public static void main(String[] args){
 // change this into the random puzzle
         password();
 
-    }
 
+    }
 
 
     public static void bombDifussal(){
@@ -46,6 +57,7 @@ public class puzzle {
 
 
         boolean clueBoolean = true;
+
         while (clueBoolean) {
             System.out.println("what do you want to investigate?");
             String INoption = key.next();
@@ -62,6 +74,8 @@ public class puzzle {
         System.out.println("what wire do you decide to cut?");
         String INcolor = key.next();
 
+
+        // what happens if they cut the right and wrong wire
         if(INcolor.equalsIgnoreCase("blue")){
             if(wireColor=="blue"){
                 System.out.println("you managed to cut the correct wire.\n"+"you move on to the next door.");
@@ -92,8 +106,14 @@ public class puzzle {
         }
         }
 
+
+
+
+
+
+
         public static void keypad(){
-            System.out.println("                        KEYPAD");
+            System.out.println();
        System.out.println("this room has a keypad by the door you need to exit.");
        System.out.println("you also see a box in the center of the room\n"+
                "something on a shelf\n"+
@@ -101,10 +121,13 @@ public class puzzle {
                "something in the lamp\n"+
                "and something in the plant");
        keypadMethod();
+       }
 
 
 
-        }
+
+       ///puzzle 2
+
         public static void keypadMethod(){
           boolean when=true;
           int count=0;
@@ -149,8 +172,15 @@ public class puzzle {
         }
     }
 
+
+
+
+
+
+    // puzzle 3
+
     public static void password(){
-        System.out.println("                 password");
+        System.out.println();
         System.out.println("in this room you find a door with a microphone next it.\n"+
                 " a chest\n"+" lamp\n"+" and a taco box");
         puzzle.passwordMETOD();

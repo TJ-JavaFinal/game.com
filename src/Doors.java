@@ -24,6 +24,7 @@ public class Doors {
 
     public static void secondRoomDoors() {
         int choice;
+
         Scanner input = new Scanner(System.in);
         System.out.println("Choose a door! \n 1- for Door 1 " +
                 "\n 2- for Door 2 \n choice >>>>");

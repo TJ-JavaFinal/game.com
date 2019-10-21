@@ -12,18 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+
       <file leaf-file-name="bigfootTacoTruckEnding.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bigfootTacoTruckEnding.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doors.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Doors.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Doors.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="612">
               <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
@@ -53,6 +56,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+
             </state>
           </provider>
         </entry>
@@ -69,8 +73,10 @@
       <file leaf-file-name="RockPaperBigfoot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RockPaperBigfoot.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="34">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+
             </state>
           </provider>
         </entry>
@@ -101,10 +107,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/HangMan.java" />
         <option value="$PROJECT_DIR$/src/randomGen.java" />
+
         <option value="$PROJECT_DIR$/src/Doors.java" />
+
         <option value="$PROJECT_DIR$/src/taco.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/GetSetDoor.java" />
         <option value="$PROJECT_DIR$/src/puzzle.java" />
+
         <option value="$PROJECT_DIR$/src/bigfootTacoTruckEnding.java" />
       </list>
     </option>
@@ -112,8 +122,10 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="76" />
     <option name="y" value="43" />
+
     <option name="width" value="1294" />
     <option name="height" value="744" />
+
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -599,10 +611,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
+
+    <entry file="file://$PROJECT_DIR$/src/taco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+
         </state>
       </provider>
     </entry>
@@ -613,8 +634,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/taco.java">
+    <entry file="file://$PROJECT_DIR$/src/GetSetDoor.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
@@ -631,20 +653,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+
+        <state relative-caret-position="53">
+          <caret line="176" column="27" selection-start-line="176" selection-start-column="27" selection-end-line="176" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HangMan.java">
+    <entry file="file://$PROJECT_DIR$/src/Doors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+
         </state>
       </provider>
     </entry>
