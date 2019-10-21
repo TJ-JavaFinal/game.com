@@ -16,6 +16,7 @@ public class Doors {
             puzzle.bombDifussal();
             secondRoomDoors();
             exitDoors(doorsActive);
+             doorsActive = false;
 
 
         }
@@ -58,7 +59,7 @@ public class Doors {
         System.out.println("|                         |");
         System.out.println("|                         |");
         System.out.println(" _________________________");
-        boolean doorsActive = false;
+
 
 
 
