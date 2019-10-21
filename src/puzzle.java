@@ -12,6 +12,8 @@ public class puzzle {
         if(rand==3)
             puzzle.keypad();
 
+
+
     }
 
 
@@ -209,4 +211,6 @@ public class puzzle {
             }
         }
     }
+
+
 }
