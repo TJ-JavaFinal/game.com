@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class puzzle {
+
     public static void randPUZZLE(){
         Random random = new Random();
         int rand = random.nextInt(3) + 1;
@@ -11,6 +12,11 @@ public class puzzle {
             puzzle.password();
         if(rand==3)
             puzzle.keypad();
+
+    public static void main(String[] args){
+// change this into the random puzzle
+        password();
+
 
     }
 
@@ -184,9 +190,9 @@ public class puzzle {
     public static void passwordMETOD(){
         boolean when=true;
         Scanner key = new Scanner(System.in);
-        String input;
+        String input="spooky scary skeletons";
         String password="speak with such a screech";
-        String answer="youll shake and shudder in surprise";
+        String answer="youll shake and shudder in surpirse";
         Random random = new Random();
         int rand = random.nextInt(3) + 1;
         if(rand == 1)
@@ -198,28 +204,14 @@ public class puzzle {
         while(when) {
             System.out.println("what do you want to look at?");
             input=key.next();
-            if (input.equalsIgnoreCase("lamp")){
-                System.out.print("you find a paper that says rock");
-                if(answer=="rock")
-                    System.out.println("      "+1);
-                System.out.println();
-            }
-           else if (input.equalsIgnoreCase("taco")) {
-                System.out.print("you find a paper that says paper");
-                if(answer=="paper")
-                    System.out.println("      "+1);
-                System.out.println();
-            }
-
-            else if (input.equalsIgnoreCase("chest")) {
-                System.out.print("you find a paper that says scissors");
-                if(answer=="scissors")
-                    System.out.println("      "+1);
-                System.out.println();
-            }
+            if (input.equalsIgnoreCase("lamp"))
+                System.out.println("you find a paper that says rock");
+           else if (input.equalsIgnoreCase("taco"))
+                System.out.println("you find a paper that says paper");
+            else if (input.equalsIgnoreCase("chest"))
+                System.out.println("you find a paper that says scissors");
            else if (input.equalsIgnoreCase("door")) {
-                System.out.print("what do you say?");
-                password=key.next();
+                System.out.println("what do you say?");
                 if(password==answer){
                     when=false;
                 }
@@ -227,6 +219,4 @@ public class puzzle {
             }
         }
     }
-
-
 }

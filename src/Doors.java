@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Doors {
 
-    public static void main(String[] args){
+    public static void Doors(){
 
         int choice;
         boolean doorsActive = true;
@@ -15,7 +15,8 @@ public class Doors {
 
             puzzle.bombDifussal();
             secondRoomDoors();
-            exitDoors();
+            exitDoors(doorsActive);
+             doorsActive = false;
 
 
         }
@@ -35,7 +36,7 @@ public class Doors {
 
 
     }
-    public static void exitDoors() {
+    public static void exitDoors(boolean doorActive) {
         System.out.println("Congratulations you have found the exit door you can finally leave");
         System.out.println(" _________________________");
         System.out.println("|                         |");
@@ -59,7 +60,7 @@ public class Doors {
         System.out.println("|                         |");
         System.out.println("|                         |");
         System.out.println(" _________________________");
-        boolean doorsActive = false;
+
 
 
 
