@@ -85,9 +85,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="14" />
-    <option name="y" value="86" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1788" />
+    <option name="y" value="170" />
     <option name="width" value="1294" />
     <option name="height" value="744" />
   </component>
@@ -118,9 +118,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
