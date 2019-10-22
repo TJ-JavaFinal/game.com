@@ -12,9 +12,11 @@ public class bigfootTacoTruckEnding {
 
         System.out.println("\n 1- to look in the truck " +
                 "\n 2- to ignore the truck \n choice >>>>");
+        // choose between looking in or walking away from the truck
         choice = input.nextInt();
 
         if(choice == 1 ){
+            // tells you what happens after you choose to look in the truck
             System.out.println("You choose to look in the truck");
             System.out.println("You then look in and see non other than The Man,The Myth, The Legend himself Bigfoot ");
             System.out.println("When he sees you think he's going to attack but he holds out two tacos and offers you to sit at the front of the truck");

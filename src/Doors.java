@@ -16,6 +16,7 @@ public class Doors {
             puzzle.bombDifussal();
             secondRoomDoors();
             exitDoors(doorsActive);
+
              doorsActive = false;
 
 
