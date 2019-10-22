@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class bigfootTacoTruckEnding {
-
     public static void bigfootTacoTruckEnding(){
         int choice;
         Scanner input = new Scanner(System.in);
@@ -12,9 +11,11 @@ public class bigfootTacoTruckEnding {
 
         System.out.println("\n 1- to look in the truck " +
                 "\n 2- to ignore the truck \n choice >>>>");
+        // choose between looking in or walking away from the truck
         choice = input.nextInt();
 
         if(choice == 1 ){
+            // tells you what happens after you choose to look in the truck
             System.out.println("You choose to look in the truck");
             System.out.println("You then look in and see non other than The Man,The Myth, The Legend himself Bigfoot ");
             System.out.println("When he sees you think he's going to attack but he holds out two tacos and offers you to sit at the front of the truck");
@@ -24,6 +25,8 @@ public class bigfootTacoTruckEnding {
             System.out.println("He then makes his right hand a fist and slams it onto his left hand");
             System.out.println("You then realize he has challenged you to a game of rock, paper, scissors");
             RockPaperBigfoot.RockPaperScissorsBigfoot();
+            // If you lose against bigfoot it then prints out THE END
+            // If you win against bigfoot it then prints out something about going to a special place
 
             System.out.println("                                    ");
             System.out.println("TTTTTTTTTT  H        H    EEEEEEEEEE");
@@ -48,6 +51,8 @@ public class bigfootTacoTruckEnding {
         }
         else if(choice == 2){
             System.out.println("You chose to ignore the truck and have completed the game");
+            //this what happens when you choose to ignore the truck
+            // it's an automatic end and nothing goes on after that and prints THE END
 
             System.out.println("So I guess this means you won the game Sooo... you can leave now congrats I guess.");
             System.out.println("                                    ");
