@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class bigfootTacoTruckEnding {
-
     public static void bigfootTacoTruckEnding(){
         int choice;
         Scanner input = new Scanner(System.in);
@@ -26,6 +25,8 @@ public class bigfootTacoTruckEnding {
             System.out.println("He then makes his right hand a fist and slams it onto his left hand");
             System.out.println("You then realize he has challenged you to a game of rock, paper, scissors");
             RockPaperBigfoot.RockPaperScissorsBigfoot();
+            // If you lose against bigfoot it then prints out THE END
+            // If you win against bigfoot it then prints out something about going to a special place
 
             System.out.println("                                    ");
             System.out.println("TTTTTTTTTT  H        H    EEEEEEEEEE");
@@ -50,6 +51,8 @@ public class bigfootTacoTruckEnding {
         }
         else if(choice == 2){
             System.out.println("You chose to ignore the truck and have completed the game");
+            //this what happens when you choose to ignore the truck
+            // it's an automatic end and nothing goes on after that and prints THE END
 
             System.out.println("So I guess this means you won the game Sooo... you can leave now congrats I guess.");
             System.out.println("                                    ");
