@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class puzzle {
 
     public static void randPUZZLE(int x) {
+        // this is where the puzzle is randomized. if the x entered 1 it goes to the soncond
         Random random = new Random();
         int rand = random.nextInt(3) + 1;
         if (rand == 1)
@@ -124,6 +125,7 @@ public class puzzle {
 
 
         public static void keypad (int x) {
+        ///puzzle of a code that you have to enter to exit
             System.out.println();
             System.out.println("this room has a keypad by the door you need to exit.");
             System.out.println("you also see a box in the center of the room\n" +

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// huge waste of time
 public class HangMan {
     public static void main(String[] args) {
         String word = "word";
