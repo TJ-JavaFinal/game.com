@@ -25,6 +25,7 @@ public class Doors {
 
     public static void secondRoomDoors() {
         int choice;
+
         Scanner input = new Scanner(System.in);
         //this is where you choose between the two doors and which ever door you choose you will again get a randomly generated puzzle that chooses out of three puzzles
         System.out.println("Choose a door! \n 1- for Door 1 " +
