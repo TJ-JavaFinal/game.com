@@ -14,6 +14,7 @@ after you find the exit door you go out and see a taco truck and are given the c
 
 
 # Flowchart
+This image shows the flowchart and what can happen after you choose each door and how it ends
 <img src="game.com Java Flowchart  (1).png" height = "458" width ="664">
 
 
