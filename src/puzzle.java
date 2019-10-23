@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class puzzle {
 
     public static void randPUZZLE(int x) {
+        // this is where the puzzle is randomized. if the x entered 1 it goes to the second door opening 
         Random random = new Random();
         int rand = random.nextInt(3) + 1;
         if (rand == 1)
@@ -17,7 +18,7 @@ public class puzzle {
 
         public static void bombDifussal(int x){
 
-            System.out.println("              BOMB DIFFUSAL\n");
+            System.out.println();
             System.out.println("there is a bomb in this room and it looks like you need to cut one of the wires.\n" +
                     "there is also something in the lamp shade and something in the corner of the room\n" +
                     " type corner for the corner of the room, bomb for the bomb,and lamp for the lamp.");
@@ -124,13 +125,11 @@ public class puzzle {
 
 
         public static void keypad (int x) {
+        ///puzzle of a code that you have to enter to exit
             System.out.println();
             System.out.println("this room has a keypad by the door you need to exit.");
-            System.out.println("you also see a box in the center of the room\n" +
-                    "something on a shelf\n" +
-                    "something on a table\n" +
-                    "something in the lamp\n" +
-                    "and something in the plant");
+            System.out.println("you also see a box in the center of the room something on a shelf, something on a table " +
+                    ",something in the lamp, and something in the plant");
             keypadMethod(x);
         }
 
@@ -150,7 +149,7 @@ public class puzzle {
                 randcode[i] = random.nextInt(9);
             }
             while (when) {
-                System.out.println("what do you want to look at?" + randcode);
+                System.out.println("what do you want to look at?");
                 input = keyboard.next();
 
                 if (input.equalsIgnoreCase("lamp"))
@@ -183,6 +182,9 @@ public class puzzle {
                                 Doors.exitDoors();
 
                         }
+                        else{
+                            System.out.println("you hear a loud beep.");
+                        }
                     }
                 }
             }
@@ -194,7 +196,7 @@ public class puzzle {
         public static void password(int x) {
             System.out.println();
             System.out.println("in this room you find a door with a microphone next it.\n" +
-                    " a chest\n" + " lamp\n" + " and a taco box");
+                    "and a chest, a lamp, and a taco box");
             passwordMETOD(x);
 
 
@@ -207,25 +209,40 @@ public class puzzle {
             String answer = "";
             Random random = new Random();
             int rand = random.nextInt(3) + 1;
-            if (rand == 1)
+          if (rand == 1)
                 answer = "rock";
             if (rand == 3)
                 answer = "scissors";
             if (rand == 2)
                 answer = "paper";
+
+
+
+
+
+
             while (when) {
                 System.out.println("what do you want to look at?");
                 input = key.next();
-                if (input.equalsIgnoreCase("lamp"))
+                if (input.equalsIgnoreCase("lamp")){
                     System.out.println("you find a paper that says rock");
-                else if (input.equalsIgnoreCase("taco"))
+                    if ( answer == "rock")
+                    System.out.println(":}");
+                }
+                else if (input.equalsIgnoreCase("taco")){
                     System.out.println("you find a paper that says paper");
-                else if (input.equalsIgnoreCase("chest"))
+                if ( answer == "paper")
+                    System.out.println(":}");
+                }
+                else if (input.equalsIgnoreCase("chest")) {
                     System.out.println("you find a paper that says scissors");
+                    if ( answer == "scissors")
+                        System.out.println(":}");
+                }
                 else if (input.equalsIgnoreCase("door")) {
                     System.out.println("what do you say?");
-
-                    if (password == answer) {
+                     password=key.next();
+                    if (password.equalsIgnoreCase( answer)) {
                         System.out.println("you hear a ding as the door swings open.");
                         when = false;
                         if(x==1)
