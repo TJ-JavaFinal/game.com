@@ -8,11 +8,13 @@ after you choose the door it will give you a puzzle which could be a keypad, pas
 
 If you unsuccssefully defuse the bomb the game will end and you will see the message below
 <img src="THE END.PNG" height = "303" width ="502">
+
 after you find the exit door you go out and see a taco truck and are given the choice to look in or ingnore it
+<img src="exit.PNG" height = "303" width ="502">
 
 
 # Flowchart
-<img src="game.com Java Flowchart  (1).png" height = "1099" width ="1400">
+<img src="game.com Java Flowchart  (1).png" height = "458" width ="664">
 
 
 
