@@ -3,7 +3,8 @@ public class Game {
     public static void instructions() {
 
         System.out.println("                         ");
-        System.out.println("Welcome to The Puzzle game");
+        System.out.println("Welcome to Bypass The game");
+        System.out.println("Make sure your console is full screen");
         System.out.println("                         ");
         System.out.println("instructions: ");
         System.out.println("In this game you will start by having to choose between three different doors");
@@ -11,7 +12,7 @@ public class Game {
         System.out.println("The puzzle could be entering a password,entering a code, or diffusing a bomb if you fail the bomb defusal it will make you restart");
         System.out.println("After you get through the first door you chose you will then be given a choice between two more doors");
         System.out.println("Each of these doors will have a randomly generated puzzle or an automatic restart");
-        System.out.println("If you finish the last puzzle you can then leave through the last door which is the Exit then you have completed The Puzzle game");
+        System.out.println("If you finish the last puzzle you can then leave through the last door which is the Exit then you have completed Bypass The game");
 
     }
 }
