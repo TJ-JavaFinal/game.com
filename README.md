@@ -7,7 +7,7 @@ after you choose the door it will give you a puzzle which could be a keypad, pas
 <img src="Doors.PNG" height = "330" width ="1323">
 
 If you unsuccssefully defuse the bomb the game will end
-<img src="THE END.PNG" height = "330" width ="1323">
+<img src="THE END.PNG" height = "303" width ="502">
 
 
 # Flowchart
