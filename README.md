@@ -6,4 +6,4 @@ This game consist of random generate puzzles that you as the player can choose f
 
 
 # Flowchart
-<img src="game.com Java Flowchart  (1).png" height = "1099" width ="1317">
+<img src="game.com Java Flowchart  (1).png" height = "1099" width ="1400">
