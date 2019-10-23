@@ -1,6 +1,8 @@
 # Bypass The Game
 
-This game consist of random generate puzzles that you as the player can choose from
+This game consist of randomly generated puzzles that you as the player can choose from
+after you choose the door it will give you a puzzle which could be a keypad, password, or difusse the bomb
+
 <img src="Doors.PNG" height = "330" width ="1323">
 
 
@@ -12,4 +14,4 @@ This game consist of random generate puzzles that you as the player can choose f
 
 
 # Youtube Gameplay
-href ="https://www.youtube.com/watch?v=M5xfzg0WxYE&feature=youtu.be" My video is here</a>
+href ="https://youtu.be/M5xfzg0WxYE" My video is here</a>
