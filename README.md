@@ -14,4 +14,4 @@ after you choose the door it will give you a puzzle which could be a keypad, pas
 
 
 # Youtube Gameplay
-href ="https://youtu.be/M5xfzg0WxYE" My video is here</a>
+href ="https://www.youtube.com/watch?v=M5xfzg0WxYE&feature=youtu.be" My video is here</a>
